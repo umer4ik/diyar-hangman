@@ -1,7 +1,7 @@
 import * as Phaser from 'phaser';
 import './index.scss'
 
-var config = {
+const config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
@@ -12,7 +12,7 @@ var config = {
   }
 };
 
-var game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
 
 function preload() {
   this.load.image('sky', 'assets/sky.png');
