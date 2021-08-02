@@ -9,5 +9,8 @@ module.exports = {
   },
   extends: [
     'airbnb-typescript/base'
-  ]
+  ],
+  rules: {
+    '@typescript-eslint/semi': ["error", "never"]
+  }
 };
