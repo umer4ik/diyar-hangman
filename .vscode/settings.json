@@ -2,5 +2,8 @@
   "eslint.validate": [
     "typescript"
   ],
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "cSpell.words": [
+    "PIXI"
+  ]
 }
